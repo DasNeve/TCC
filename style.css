@@ -1,0 +1,179 @@
+body {
+	background-image: linear-gradient(to top, #530fc7, #8A2BE2);
+	color: #fff;
+	
+}
+
+header {
+	background-color: #353b40;
+    margin-bottom: 20px;
+}
+
+nav a {
+	color: #fff !important;
+}
+
+footer {
+    background-color: #353b40;
+}
+
+
+footer p {
+  margin: 18px   
+  
+}
+
+article#index {
+    height: 75vh;
+    background-color: #353b40;
+    margin: auto;
+    overflow-y: auto;
+    margin-bottom: 68px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+ article#cadastro {
+    background-color: #353b40;
+    border-radius: 15px;
+    width: 800px;
+    height: auto;
+    max-height: 60vh;
+    margin: auto;
+    overflow-y: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 18px;
+}
+
+article#cadastro h2 {
+    font-size: 24px;
+    color: #f0ad4e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+article#cadastro input[type="text"],
+article#cadastro textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #f0ad4e;
+    background-color: transparent;
+    color: white;
+}
+
+article#cadastro input[type="submit"] {
+    background-color: #f0ad4e;
+    color: #353b40;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+article#cadastro input[type="submit"]:hover {
+    background-color: #e0a040;
+}
+
+
+  article#login {
+    height: 55vh;
+	background-color: #353b40;
+    margin: auto;
+    overflow-y: auto;
+    margin-bottom: 225px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 800px;
+  }
+
+
+
+div#botoes {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+.cadastro {
+    background-color: rgb(122, 25, 160);
+    width: 350px;
+    margin-left: 200px;
+}
+
+.login {
+    background-color: rgb(122, 25, 160);
+    width: 350px;
+    margin-left: 200px;
+}
+
+/*Grupo imagem 1 + Lista 1*/
+.imagem1 {
+    width: 300px;
+    display: block;
+   
+}
+
+.lista1 {
+    padding-left: 5px;  
+    margin-top: 10px;
+    margin-left: 50px ;
+    width: 425px ;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    display: block; 
+    float: left;    
+}
+
+
+/*Grupo Imagem 2 + Lista 2*/
+.imagem2 {
+    float: right;
+    width: 300px;
+    padding-top: 10px;
+}
+
+.lista2 {
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 115px ;
+    width: 430px ;
+    background-color: rgb(0, 26, 255);
+    color: #fff;
+    float: right;
+    display: inline;
+}
+
+/*Texto listas 1 e 2*/
+.textolista {
+    padding-right: -10px;
+}
+
+
+/*Botão Calcular*/
+
+.botaocalcular {    
+    text-align: center;
+    display: inline-block; 
+}
+
+/* Cor da comparação */
+
+.cor {
+    color: white;
+}
+
+.retangulo {
+    width: 50000px; 
+    height: 50000px;
+    background-color: #353b40; 
+    position: fixed;
+}
+
+#fotos {
+    align-items: center;
+}
